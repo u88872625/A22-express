@@ -6,6 +6,21 @@
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
+    {{! navigation }}
+    <nav>
+      <div class="container">
+        <a href="/" class="nav-title"><span>回到首頁</span></a>
+        <ul class="nav-list">
+          <a href="/about"><li id="About-item" class="item">About</li></a>
+          <a href="/portfolio"><li
+              id="Portfolio-item"
+              class="item"
+            >Portfolio</li></a>
+          <a href="/contact"><li id="Contact-item" class="item">Contact</li></a>
+        </ul>
+      </div>
+    </nav>
+
     {{{body}}}
   </body>
 </html>

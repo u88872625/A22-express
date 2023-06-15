@@ -10,19 +10,19 @@ app.set("view engine", "handlebars");
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("index", { style: "home.css" });
 });
 
 app.get("/about", (req, res) => {
-  res.render("About");
+  res.render("About", { style: "about.css" });
 });
 
 app.get("/portfolio", (req, res) => {
-  res.render("portfolio");
+  res.render("portfolio", { style: "portfolio.css" });
 });
 
 app.get("/contact", (req, res) => {
-  res.render("contact");
+  res.render("contact", { style: "contact.css" });
 });
 
 app.listen(port, () => {

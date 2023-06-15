@@ -3,21 +3,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/{{{style}}}" />
+
   </head>
   <body>
     {{! navigation }}
     <nav>
-      <div class="container">
-        <a href="/" class="nav-title"><span>回到首頁</span></a>
-        <ul class="nav-list">
-          <a href="/about"><li id="About-item" class="item">About</li></a>
-          <a href="/portfolio"><li
-              id="Portfolio-item"
-              class="item"
-            >Portfolio</li></a>
-          <a href="/contact"><li id="Contact-item" class="item">Contact</li></a>
-        </ul>
+      <div class="nav-container">
+        <a href="/" class="home"><span>回到首頁</span></a>
+        <div class="nav-list">
+          <a href="/about" class="about">About</a>
+          <a href="/portfolio" class="portfolio">Portfolio</a>
+          <a href="/contact" class="contact">Contact</a>
+        </div>
       </div>
     </nav>
 

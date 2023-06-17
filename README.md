@@ -1,5 +1,5 @@
 ## A22：Express 基礎驗收
-使用 Express 及 Node.js　建立，點選上方選單可切換頁面
+使用 Express 及 Node.js 建立，點選上方選單可切換頁面。
 
 ### 頁面呈現
 ![Index page about Restaurant List](./public/image/snapshot.png)
